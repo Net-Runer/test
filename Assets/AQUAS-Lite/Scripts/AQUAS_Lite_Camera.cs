@@ -1,27 +1,3 @@
-﻿// Needs to be attached to Camera to enable depth rendering in forward lighting (required for some platforms)
-
-using UnityEngine;
-
-namespace AQUAS_Lite
-{
-    [AddComponentMenu("AQUAS Lite/AQUAS Lite Camera")]
-    [RequireComponent(typeof(Camera))]
-    public class AQUAS_Lite_Camera : MonoBehaviour
-    {
-#if UNITY_EDITOR
-        void OnDrawGizmos()
-        {
-            Set();
-        }
-#endif
-        void Start()
-        {
-            Set();
-        }
-        void Set()
-        {
-            if (GetComponent<Camera>().depthTextureMode == DepthTextureMode.None)
-                GetComponent<Camera>().depthTextureMode = DepthTextureMode.Depth;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:81f998b07593d73cc187d5674049142370357aeae22275c18c7bd4e3644f3892
+size 670

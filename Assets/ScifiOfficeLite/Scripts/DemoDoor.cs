@@ -1,19 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace ScifiOffice {
-    public class DemoDoor : MonoBehaviour {
-        Animator anim;
-
-        private void Start() {
-            anim = GetComponent<Animator>();
-        }
-
-        private void OnTriggerEnter(Collider other) {
-            if(other.gameObject.name == "Player") {
-                anim.SetTrigger("Open");
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a707a53f9aa975542cf2b700eff717164f5d4cd89b1231756dde75409f52e5f
+size 440

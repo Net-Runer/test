@@ -1,28 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PlayerLook : MonoBehaviour
-{
-    public Camera cam;
-    private float xRotation = 0f;
-
-    public float xSensitivity = 20f;
-    public float ySensitivity = 20f;
-
-
-    public void ProcessLook(Vector2 input)
-    {
-        float mouseX = input.x;
-        float mouseY = input.y;
-        //calculate camera rotation for looking up and down
-        xRotation -= (mouseY * Time.deltaTime) * ySensitivity;
-        xRotation = Mathf.Clamp(xRotation, -80f, 80f);
-        //apply this to our camera transform
-        cam.transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
-        //rotate our player to look left and right
-        transform.Rotate(Vector3.up * (mouseX * Time.deltaTime) * xSensitivity);
-
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f76e8a355d3cdf8de2ee33f8bf8581dd7e1eac5c66150d891991d6d73d85546
+size 807

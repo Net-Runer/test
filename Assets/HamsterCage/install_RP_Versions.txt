@@ -1,9 +1,3 @@
-To install HDRP or URP version:
-
-1) Import this package into an URP or HDRP Project
-
-2) Go to the folder "_Install_RP_Versions_" and doubleclick the URP or HDRP package.
-
-That´s all!
-
-The RP-Version are created for RP-Version 11.0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f71365511a7e65ba5cc4366782e1008db78b44e059f8e01d6cc470bc74df2e4c
+size 233

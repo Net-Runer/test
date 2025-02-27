@@ -1,8 +1,3 @@
-Thank you for downloading AQUAS Lite!
-The current version is 1.2
-
-For video tutorials and the latest manual please visit the following link:
-
-https://dogmaticgames.wordpress.com/products/aquas-water-shader-set/tutorials/
-
-Have Fun!
+version https://git-lfs.github.com/spec/v1
+oid sha256:b661ddc4e2c47d0bbc350ca292930059ffd7846ff2dc2e8690b8f421e28fc4ed
+size 231

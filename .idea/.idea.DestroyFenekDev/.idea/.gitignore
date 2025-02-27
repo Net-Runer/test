@@ -1,13 +1,3 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Rider ignored files
-/projectSettingsUpdater.xml
-/contentModel.xml
-/modules.xml
-/.idea.DestroyFenekDev.iml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+version https://git-lfs.github.com/spec/v1
+oid sha256:0107f8c88dfde4b4dfe51416db9c02665d9b11aeb6be673b8f32241b59b47890
+size 284
